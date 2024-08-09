@@ -14,10 +14,10 @@ services:
       - DNSMASQ_LISTENING=local
       - WEB_PORT=8000
       - DNSMASQ_USER=pihole
-      - FTLCONF_LOCAL_IPV4=YOURIPV4ADDRESS
+      - FTLCONF_LOCAL_IPV4=xxx.xxx.xxx.xxx
     volumes:
-      - /volume1/docker/pihole/dnsmasq.d:/etc/dnsmasq.d
-      - /volume1/docker/pihole/pihole:/etc/pihole
+      - /volume1/docker/pihole/etc-dnsmasq.d:/etc/dnsmasq.d
+      - /volume1/docker/pihole/etc-pihole:/etc/pihole
     ports:
       - 53:53/udp
       - 8000:8000/tcp
