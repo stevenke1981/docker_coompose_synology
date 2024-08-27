@@ -1,3 +1,4 @@
+# 需要先安裝web station
 # 需要先建立資料夾/volume1/docker/pihole/etc-dnsmasq.d
 # 需要先建立資料夾/volume1/docker/pihole/etc-pihole
 
